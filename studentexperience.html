@@ -9,24 +9,24 @@
 <body>
     <nav>
         <ul>
-            <li><a href="/index.html">Home</a></li>
-            <li><a href="/media.html">Media & Blog</a></li>
+            <li><a href="{{ '/index.html' | relative_url }}">Home</a></li>
+            <li><a href="{{ '/media.html' | relative_url }}">Media & Blog</a></li>
             <li class="dropdown">
-            <a href="/studentexperience.html">Student Experience</a>
+            <a href="{{ '/studentexperience.html' | relative_url }}">Student Experience</a>
                 <ul class="dropdown-menu">
-                    <li><a href="/middleschool.html">Middle School</a></li>
-                    <li><a href="/highschool.html">High School</a></li>
-                    <li><a href="/testimonies.html">Testimonies</a></li>
+                    <li><a href="{{ '/middleschool.html' | relative_url }}">Middle School</a></li>
+                    <li><a href="{{ '/highschool.html' | relative_url }}">High School</a></li>
+                    <li><a href="{{ '/testimonies.html' | relative_url }}">Testimonies</a></li>
                 </ul>
             </li>
-            <li><a href="/contact.html">Contact</a></li>
+            <li><a href="{{ '/contact.html' | relative_url }}">Contact</a></li>
         </ul>
     </nav>
     <header class="welcome-text">
         <h1>Our students' experiences</h1>
     </header>
     <main>
-        <p>Replace this content with your site.</p>
+        <p>[BUTTONS HERE WITH REDIRECTIONS TO INDIVIDUAL PAGES]</p>
     </main>
 </body>
 </html>
